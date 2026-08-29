@@ -1,0 +1,25 @@
+@font-face {
+    font-family: whiterabt;
+    src: url("../fonts/whiterabt.ttf");
+}
+
+
+h1 {
+	font-family: whiterabt;
+}
+
+h2 {
+	font-family: whiterabt;
+}
+
+body {
+	margin-top: 35px;
+	background-color: #FFF8F0;
+	justify-content: center;
+}
+
+p {
+	font-family: whiterabt;
+}
+
+
