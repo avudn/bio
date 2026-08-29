@@ -3,23 +3,33 @@
     src: url("../fonts/whiterabt.ttf");
 }
 
+.round {
+	border-radius: 15px;	
+}
+
+.circle {
+	border-radius: 50%;
+}
+
 
 h1 {
 	font-family: whiterabt;
+	
 }
 
 h2 {
-	font-family: whiterabt;
+	font-family: whiterabt;	
 }
+
 
 body {
 	margin-top: 35px;
-	background-color: #ffedd8;
+	background-color: #eee1d1;
 	justify-content: center;
 }
 
 p {
-	font-family: whiterabt;
+	font-family: whiterabt;	
 }
 
 
