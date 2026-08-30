@@ -3,33 +3,54 @@
     src: url("../fonts/whiterabt.ttf");
 }
 
-.round {
-	border-radius: 15px;	
+@font-face {
+    font-family: plank;
+    src: url("../fonts/plank.ttf");
 }
 
+@font-face {
+    font-family: jbmn;
+    src: url("../fonts/jbmn.ttf");
+}
+
+
 .circle {
+	border: 2px solid #fffbcf;
 	border-radius: 50%;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border-radius: 15px;	
+	border: 2px solid #fffbcf;		
 }
 
 
 h1 {
 	font-family: whiterabt;
+	color: #edf2f4;
 	
 }
 
 h2 {
 	font-family: whiterabt;	
+	color: #edf2f4;
 }
 
 
 body {
 	margin-top: 35px;
-	background-color: #eee1d1;
+	
+	background-color: #0c0c0b;
 	justify-content: center;
 }
 
 p {
-	font-family: whiterabt;	
+	color: #fffbcf;
+	font-family: jbmn;	
 }
 
 
