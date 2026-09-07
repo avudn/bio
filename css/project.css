@@ -13,11 +13,10 @@
     src: url("../fonts/jbmn.ttf");
 }
 
-
-.circle {
-	border: 2px solid #ffffff;
-	border-radius: 50%;
+div {
+	text-align:center;
 }
+
 
 a {
 	text-decoration: none;
