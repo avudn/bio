@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: libertinus;
+    src: url("../fonts/libertinus.ttf");
+}
+
+@font-face {
     font-family: jbmn;
     src: url("../fonts/jbmn.ttf");
 }
@@ -41,14 +46,14 @@ a {
 
 
 h1 {
-	font-family: sans-serif;
+	font-family: libertinus;
 	color: #ffffff;
 	font-size: 14px;
 	
 }
 
 h2 {
-	font-family: sans-serif;	
+	font-family: libertinus;	
 	color: #ffffff;
 	font-size: 14px
 }
@@ -63,7 +68,7 @@ body {
 
 p {
 	color: #ffffff;
-	font-family: sans-serif;
+	font-family: libertinus;
 	font-size:14px;	
 }
 
