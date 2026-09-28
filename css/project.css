@@ -30,7 +30,7 @@
 }
 
 div {
-	background-color: #080711;
+	background-color: #000000;
 	text-align: center;
 }
 
@@ -62,13 +62,13 @@ h2 {
 
 body {
 	margin-top: 35px;
-	background-color: #080711;
+	background-color: #000000;
 	justify-content: center;
 }
 
 p {
   letter-spacing: 1px;
-	color: #9c8ef7;
+	color: #ffffff;
 	font-family: libertinus;
 	font-size: 14px;
 }
