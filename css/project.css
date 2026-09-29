@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: libertinus;
-    src: url("../fonts/libertinus.ttf");
+    src: url("../fonts/libertinus.otf");
 }
 
 @font-face {
@@ -18,57 +18,38 @@
     src: url("../fonts/jbmn.ttf");
 }
 
-.container {
-	margin-top: 75px;
-	margin-bottom: 75px;
-	margin-left: 75px;
-	margin-right: 75px;
-}
 
 .header {
 	margin-top: 125px;
 }
 
+.gazik {
+	margin-top: 25px;
+}
+
 div {
-	background-color: #080711;
+	background-color: #FFF8F0;
 	text-align: center;
 }
 
-a {
-	text-decoration: none;
-	color: #6e5ac2;
-}
-
-a:hover {
-	color: #9c8ef7;
-}
-
-/* img {
-	border-radius: 15px;
-	border: 2px solid #4b357a;
-} */
-
 h1 {
 	font-family: libertinus;
-	color: #9c8ef7;
-	font-size: 14px;
-}
-
-h2 {
-	font-family: libertinus;
-	color: #9c8ef7;
-	font-size: 14px;
+	color: #2C3F7A;
+	font-size: 18px;
 }
 
 body {
 	margin-top: 35px;
-	background-color: #080711;
+	background-color: #FFF8F0;
 	justify-content: center;
 }
 
+a {
+	text-decoration: none;
+}
+
 p {
-  letter-spacing: 1px;
-	color: #9c8ef7;
+	color: #111D4A;
 	font-family: libertinus;
 	font-size: 14px;
 }
