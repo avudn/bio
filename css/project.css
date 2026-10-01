@@ -26,7 +26,8 @@ body {
 	justify-content: center;
 }
 
-p {
+p a {
+	text-decoration: none;
 	color: #111D4A;
 	font-family: libertinus;
 	font-size: 14px;
