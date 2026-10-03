@@ -1,18 +1,102 @@
-<html>
-	<head>
-		<title> distros/ </title>
-		<link rel="stylesheet" href="./css/project.css">
-	</head>
-	<body>
-		<div>
-			<h1 style="margin-top:30px;"> distros that i use</h1>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-			<p class="container" style="margin-bottom:0px;"> exherbo linux </p><br>
-			<img src="./images/1.png" height=400px>
+    <title>distros/</title>
 
-			<p class="container" style="margin-bottom:0px;">  gentoo linux </p><br>
-			<img src="./images/2.png" height=400px>
+    <style>
+        @font-face {
+            font-family: libertinus;
+            src: url("./fonts/libertinus.otf");
+        }
 
-		</div>
-	</body>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 30px 20px 60px;
+
+            background-color: #000000;
+            color: #ffffff;
+
+            font-family: libertinus, serif;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin: 0 0 50px;
+            font-size: 20px;
+            font-weight: normal;
+        }
+
+        .distro {
+            margin-bottom: 55px;
+        }
+
+        .distro h2 {
+            margin: 0 0 15px;
+            font-size: 16px;
+            font-weight: normal;
+        }
+
+        .distro img {
+            display: block;
+            width: 100%;
+            max-width: 700px;
+            height: auto;
+            margin: 0 auto;
+
+            border: 1px solid #ffffff;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 25px 15px 40px;
+            }
+
+            h1 {
+                margin-bottom: 35px;
+                font-size: 18px;
+            }
+
+            .distro {
+                margin-bottom: 40px;
+            }
+
+            .distro h2 {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+
+        <h1>distros that i use</h1>
+
+        <section class="distro">
+            <h2>exherbo linux</h2>
+            <img src="./images/1.png" alt="Exherbo Linux">
+        </section>
+
+        <section class="distro">
+            <h2>gentoo linux</h2>
+            <img src="./images/2.png" alt="Gentoo Linux">
+        </section>
+
+    </main>
+</body>
 </html>
+```
+
